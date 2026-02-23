@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_04</title>
+</head>
+<body>
+    <table border="1" cellspacing="2" cellpadding="2" width="75%">
+        <tr height="40px">
+            <th colspan="4">Registration Form</th>
+        </tr>
+
+        <tr>
+            <td><label for="studentName"><b>Student Name</b></label></td>
+            <td><input type="text" name="studentName" id="studentName" placeholder="First Name"></td>
+            <td><input type="text" name="studentmiddle" id="studentmiddle" placeholder="Middle Name"></td>
+            <td><input type="text" name="studentlastname" id="studentlastname" placeholder="Last Name"></td>
+        </tr>
+
+        <tr>
+            <td><label for="fatherName"><b>Father's Name</b></label></td>
+            <td><input type="text" name="fatherName" id="fatherName" placeholder="Enter your father's name"></td>
+            <td><label for="motherName"><b>Mother's Name</b></label></td>
+            <td><input type="text" name="motherName" id="motherName" placeholder="Enter your mother's name"></td>
+        </tr>
+
+        <tr>
+            <td><label for="dateOfBirth"><b>Date of Birth</b></label></td>
+            <td><input type="date" name="dateofbirth" id="dateofbirth"></td>
+            <td><label for="gender"><b>Gender</b></label></td>
+            <td>
+                Male <input type="radio" name="gender" id="gender" value="male"> 
+                Female <input type="radio" name="gender" value="female" id="gender"> 
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="category"><b>Category</b></label></td>
+            <td>
+                Gen <input type="radio" name="category" id="category" value="Gen"> 
+                OBC <input type="radio" name="category" id="category" value="OBC">
+                SC/ST <input type="radio" name="category" id="category" value="SC">
+            </td>
+            <td><label for="handicapped"><b>Handicapped</b></label></td>
+            <td>
+                Yes <input type="radio" name="handicapped" id="handicapped" value="yes"> 
+                No <input type="radio" name="handicapped" id="handicapped" value="no">
+            </td>
+        </tr>
+            <td><label for="ex-serviceman"><b>Ex-Serviceman</b></label></td>
+            <td>
+                Yes <input type="radio" name="ex-serviceman" id="ex-serviceman" value="yes"> 
+                No <input type="radio" name="ex-serviceman" id="ex-serviceman" value="no">
+            </td>
+            <td><label for="ews"><b>EWS</b></label></td>
+            <td>
+                Yes <input type="radio" name="ews" id="ews" value="yes"> 
+                No <input type="radio" name="ews" id="ews" value="no">
+            </td>
+        <tr>
+
+        <tr>
+            <td><label for="email"><b>Email</b></label></td>
+            <td><input type="email" name="email" id="email"></td>
+            <td><label for="MobNo"><b>Mobile No.</b></label></td>
+            <td><input type="tel" name="MobNo" id="MobNo"></td>
+        </tr>
+
+        <tr>
+            <td><label for="state"><b>State</b></label></td>
+            <td>
+                <select name="state" id="state">
+                    <option value="">Select State</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                </select>
+            </td>
+            <td><label for="city"><b>City</b></label></td>
+            <td>
+                <select name="city" id="city">
+                    <option value="">Select City</option>
+                    <option value="Indore">Indore</option>
+                    <option value="Bhopal">Bhopal</option>
+                    <option value="Gwalior">Gwalior</option>
+                    <option value="Jabalpur">Jabalpur</option>
+                    <option value="Ujjain">Ujjain</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="uploadphoto"><b>Upload Photo</b></label></td>
+            <td><input type="file" name="uploadphoto" id="uploadphoto"></td>
+            <td><label for="uploadsignature"><b>Upload Signature</b></label></td>
+            <td><input type="file" name="uploadsignature" id="uploadsignature"></td>    
+        </tr>
+
+        <tr height="40px">
+            <th colspan="4"><input type="submit" name="submit" value="submit"></th>
+        </tr>
+    </table>
+</body>
+</html>
