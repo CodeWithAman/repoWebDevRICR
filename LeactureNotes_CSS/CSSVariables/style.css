@@ -1,7 +1,7 @@
 :root {
-  --primary-color: rgb(88, 232, 102);
-  --secondary-color: skyblue;
-  --text-color: green;
+  --primary-color: rgb(58, 215, 224);
+  --secondary-color: rgb(121, 98, 186);
+  --text-color: rgb(79, 97, 255);
 }
 
 h1 {
